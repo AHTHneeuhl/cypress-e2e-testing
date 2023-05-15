@@ -1,0 +1,33 @@
+.form-container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.form {
+  padding: 1.5rem;
+  background-color: #fefefe;
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.name,
+.email,
+.message {
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #cab6b6;
+}
+
+.submit {
+  border-radius: 12px;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  border: unset;
+  cursor: pointer;
+}
